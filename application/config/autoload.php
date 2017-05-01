@@ -133,20 +133,3 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array();
-
-/*
-| -------------------------------------------------------------------
-|  Psr4 Autoloader Class
-| -------------------------------------------------------------------
-*/
-
-require APPPATH . "libraries/Psr4/AutoloaderClass.php";
-
-$loader = new Library\Psr4\AutoloaderClass;
-
-$loader->addNamespace('Library', APPPATH . 'libraries/');
-$loader->addNamespace('Model', APPPATH . 'models/');
-
-$loader->register();
-
-

@@ -20,10 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-        $blogLib = new Library\Anto\Blog;
-        
-        $data = $blogLib->getPostMeta();
-        
-		$this->load->view('welcome_message', $data);
+		$this->load->view('welcome_message');
 	}
 }
