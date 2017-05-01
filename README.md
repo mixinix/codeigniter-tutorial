@@ -10,4 +10,5 @@ File yang dimodifikasi:
 File tambahan:
 
     application/libraries/Anto/Blog.php
+    application/libraries/Psr4/AutoloaderClass.php
     application/models/Anto/Blog.php
